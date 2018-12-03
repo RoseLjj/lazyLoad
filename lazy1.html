@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="./js/jquery-1.11.0.js"></script>
+    <script src="./js/jquery.lazyload.min.js"></script>
+    <style>
+        img.lazy{
+            width: 100%;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <img class="lazy" data-original="./img/bmw_m1_hood.jpg">
+    <img class="lazy" data-original="./img/bmw_m1_side.jpg">
+    <img class="lazy" data-original="./img/viper_1.jpg">
+    <img class="lazy" data-original="./img/viper_corner.jpg">
+    <img class="lazy" data-original="./img/bmw_m3_gt.jpg">
+    <img class="lazy" data-original="./img/corvette_pitstop.jpg">
+    <img class="lazy" data-original="./img/bmw_m1_hood.jpg">
+    <img class="lazy" data-original="./img/bmw_m1_side.jpg">
+    <img class="lazy" data-original="./img/viper_1.jpg">
+    <img class="lazy" data-original="./img/viper_corner.jpg">
+    <img class="lazy" data-original="./img/bmw_m3_gt.jpg">
+    <img class="lazy" data-original="./img/corvette_pitstop.jpg">
+    <img class="lazy" data-original="./img/bmw_m1_hood.jpg">
+    <img class="lazy" data-original="./img/bmw_m1_side.jpg">
+    <img class="lazy" data-original="./img/viper_1.jpg">
+    <img class="lazy" data-original="./img/viper_corner.jpg">
+    <img class="lazy" data-original="./img/bmw_m3_gt.jpg">
+    <img class="lazy" data-original="./img/corvette_pitstop.jpg">
+    <img class="lazy" data-original="./img/bmw_m1_hood.jpg">
+    <img class="lazy" data-original="./img/bmw_m1_side.jpg">
+    <img class="lazy" data-original="./img/viper_1.jpg">
+    <img class="lazy" data-original="./img/viper_corner.jpg">
+    <img class="lazy" data-original="./img/bmw_m3_gt.jpg">
+    <img class="lazy" data-original="./img/corvette_pitstop.jpg">
+</div>
+</body>
+</html>
+<script type="text/javascript" charset="utf-8">
+    $(function() {
+        $("img.lazy").lazyload({
+            effect: "fadeIn",
+//            threshold :20,
+        });
+    });
+</script>
